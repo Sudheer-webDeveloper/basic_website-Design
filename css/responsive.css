@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1140px)
+{
+   
+body{
+    background-color: blue;
+}
+.logo{
+    width: 20%;
+}
+.navlist{
+    display: inline-block;
+    padding: 0 48px 12px 0;
+    align-content: center;
+    margin: 0 30px;  
+}
+li a{
+     align-items: center;
+}
+.navbar{
+        flex-direction: column;
+    }
+.rightNav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0 15px;
+        margin-right: 350px;
+    }
+/* .rightNav input{
+    width: 200px;
+} */
+ /* #search{
+        width: 100%;
+    } */
+.burger{
+    display: block;
+}
+
+.box-main{
+   display: flex;
+   align-content: center;
+   margin-top: 0px;
+   width: 2000px;
+}
+.FirstHalf{
+    margin-top: 500px;  
+    display: flex;
+    flex-direction: flex-start;
+    align-content:center;
+}
+.text-big{
+    font-size: 25px;
+    padding:0 50px 0 0px;
+    
+}
+.text-small{
+    margin-top: 15px;
+    font-size: 15px;
+    
+}
+.SecondHalf{
+    margin-top:400px;
+    margin-left: 20px;
+   
+}
+.SecondHalf img{
+    width:200px;
+    border-radius: 50%;
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    padding: 5px 10px;
+    margin:3px 1px;
+    border:1px solid white;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 0px;
+
+}
+.sectionTag{
+    margin-top: 80px;
+    font-size: 30px;
+    width: 30vw;
+    
+}
+.paras{
+    margin-left: 30px;
+}
+.sectionSubTag{
+    font-size: 15px;
+    width:41vw;
+}
+.thumbnail img{
+    width: 160px;
+    height: 200px;
+    margin-top: 150px;
+    margin-right:100px;
+}
+.section-right{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.paras1{
+    margin-right: 200px;
+    margin-bottom: 400px;
+    /* margin-top: px; */
+    position: static;
+    
+}
+.sectionTag1{
+    /* margin-top: 80px; */
+    font-size: 30px;
+    
+}
+.section-left{
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: center;
+
+}
+.sectionSubTag1{
+    font-size: 15px; 
+    width:50vw;
+    height: 50vh;
+}
+.thumbnail1 img{
+    width: 160px;
+    height: 200px;
+    margin-right:20px; 
+    margin-left: 340px;
+    margin-top: 300px;
+}
+}
+
